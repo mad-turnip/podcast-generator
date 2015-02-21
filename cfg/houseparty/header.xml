@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<rss xmlns:itunes='http://www.itunes.com/dtds/podcast-1.0.dtd' xmlns:atom='http://www.w3.org/2005/Atom' version='2.0' >
+<channel>
+	<title>House Party</title>
+	<description>Getting ready to head out on a Saturday night? We will get your party started with 2 hours of the biggest club and chart tracks of the moment. Saturdays at 21.45.</description>
+	<link>http://spin1038.com/houseparty</link>
+	<category>Radio</category>
+	<language>en-ie</language>
+	<managingEditor>houseparty@spin1038.com (Spin 1038)</managingEditor>
+	<webMaster>houseparty@spin1038.com (Spin 1038)</webMaster>
+	<itunes:summary>Getting ready to head out on a Saturday night? We will get your party started with 2 hours of the biggest club and chart tracks of the moment. Saturdays at 21.45.</itunes:summary>
+	<atom:link href='http://spin1038.com/content/003/podcastFeeds/230.xml' rel='self' type='application/rss+xml' />
+	<itunes:category text='Music'/>
+	<itunes:keywords>Radio Station, club, House Party, new wave, remixes, dance, dance beats, electro, club</itunes:keywords>
+	<itunes:author>Vogue Williams</itunes:author>
+	<itunes:owner>
+		  <itunes:email>houseparty@spin1038.com</itunes:email>		
+	</itunes:owner>
+	<itunes:image href='http://www.spin1038.com/content/003/images/000032/35465_2_pages_03_40_294x165.jpg' />
+	<itunes:explicit>no</itunes:explicit>
+	<image>	<url>http://www.spin1038.com/content/003/images/000032/35465_2_pages_03_40_294x165.jpg</url>
+			<title>House Party</title>
+			<link>http://spin1038.com/houseparty</link>
+			<description>Getting ready to head out on a Saturday night? We will get your party started with 2 hours of the biggest club and chart tracks of the moment. Saturdays at 21.45.</description>
+			<width>294</width>
+			<height>165</height>
+	</image>
+	<copyright>Copyright 2015 - Spin1038 Ltd.</copyright>

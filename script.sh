@@ -16,6 +16,6 @@ do
     mv -v "/var/www/indiedisco/$FILE" `echo /var/www/indiedisco/$FILE | tr ' ' '_' `
 done
 echo "generating feed.xml" >> /var/log/indiedisco.log
-/root/jdk1.7.0_60/bin/java -cp bin CreateRssFeed
+/root/jdk1.7.0_60/bin/java -cp bin CreateRssFeed /root/indiedisco/cfg/indiedisco/indiedisco.properties true
 cp feed.xml /var/www/indiedisco/feed.xml
 

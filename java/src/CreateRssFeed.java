@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -19,17 +20,34 @@ import java.util.Date;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Locale;
+import java.util.Properties;
 
 
 public class CreateRssFeed {
 
 	public static void main(String[] args) {
 		boolean mergeFiles = false;
-		if(args.length >= 1){
-			mergeFiles = Boolean.parseBoolean(args[0]);
+		String propsFile = args[0];
+		Properties prop = new Properties();
+		try {
+			prop.load(new FileInputStream(propsFile));
+		} catch (FileNotFoundException e1) {
+			e1.printStackTrace();
+		} catch (IOException e1) {
+			e1.printStackTrace();
+		}
+		
+		String show = prop.getProperty("show");
+		String description = prop.getProperty("description");
+		String cover = prop.getProperty("cover");
+		String headerXml = prop.getProperty("header");
+		String footerXml = prop.getProperty("footer");
+
+		if(args.length >= 2){
+			mergeFiles = Boolean.parseBoolean(args[1]);
 		}
 		LinkedList<String> items = new LinkedList<String>();
-		File dir = new File("/var/www/indiedisco/");
+		File dir = new File("/var/www/"+show+"/");
 		List<File> list = Arrays.asList(dir.listFiles());
 		Collections.sort(list);
 		if(mergeFiles){
@@ -73,25 +91,26 @@ public class CreateRssFeed {
 			
 		}*/
 		
+		items.add("\t<lastBuildDate>"+getDateAsRFC822String(new Date())+"</lastBuildDate>");
 		list = Arrays.asList(dir.listFiles());
 		Collections.sort(list);
 		for (int i = list.size() - 1; i >= 0; i--) {
 			File f = list.get(i);
 			if (f.getName().endsWith(".mp3")) {
-				Path path = FileSystems.getDefault().getPath("/var/www/indiedisco/", f.getName());
+				Path path = FileSystems.getDefault().getPath("/var/www/"+show+"/", f.getName());
 				BasicFileAttributes attr;
 				try {
 					attr = Files.readAttributes(path, BasicFileAttributes.class);
 					Date time = new Date(attr.creationTime().toMillis());
 					items.add("\t<item>");
 					items.add("\t\t<title>"+ f.getName().replaceAll("_", " ").replace(".mp3", "") + "</title>");
-					items.add("\t\t<description>Indie Disco with Clowd on Spin1038</description>");
-					items.add("\t\t<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>");
-					items.add("\t\t<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>");
-					items.add("\t\t<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />");
+					items.add("\t\t<description>"+description+"</description>");
+					items.add("\t\t<itunes:subtitle>"+description+"</itunes:subtitle>");
+					items.add("\t\t<itunes:summary>"+description+"/itunes:summary>");
+					items.add("\t\t<itunes:image href='"+cover+"' />");
 					items.add("\t\t<pubDate>" + getDateAsRFC822String(time)+ "</pubDate>");
-					items.add("\t\t<enclosure url='http://128.204.195.198/indiedisco/"+ f.getName()+ "' length='"+ f.length()+ "' type='audio/mpeg'/>");
-					items.add("\t\t<guid>http://128.204.195.198/indiedisco/"+ f.getName() + "</guid>");
+					items.add("\t\t<enclosure url='http://128.204.195.198/"+show+"/"+ f.getName()+ "' length='"+ f.length()+ "' type='audio/mpeg'/>");
+					items.add("\t\t<guid>http://128.204.195.198/"+show+"/"+ f.getName() + "</guid>");
 					items.add("\t</item>");
 				} catch (IOException e) {
 					e.printStackTrace();
@@ -100,12 +119,13 @@ public class CreateRssFeed {
 		}
 		try {
 			BufferedWriter bw = new BufferedWriter(new FileWriter("feed.xml"));
-			writeFile("header.xml", bw);
+			writeFile(headerXml, bw);
 			for (String s : items) {
 				// System.out.println(s);
-				bw.write(s + "\n");
+				bw.write(s);
+				bw.newLine();
 			}
-			writeFile("footer.xml", bw);
+			writeFile(footerXml, bw);
 			bw.flush();
 			bw.close();
 		} catch (IOException e) {
