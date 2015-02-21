@@ -20,6 +20,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Locale;
 
+
 public class CreateRssFeed {
 
 	public static void main(String[] args) {
@@ -29,10 +30,10 @@ public class CreateRssFeed {
 		}
 		LinkedList<String> items = new LinkedList<String>();
 		File dir = new File("/var/www/indiedisco/");
-
+		List<File> list = Arrays.asList(dir.listFiles());
+		Collections.sort(list);
 		if(mergeFiles){
-			List<File> list = Arrays.asList(dir.listFiles());
-			Collections.sort(list);
+			
 			for (int i = list.size() - 1; i >= 0; i--) {
 				File f = list.get(i);
 				String s = f.getName();
@@ -51,8 +52,31 @@ public class CreateRssFeed {
 				}
 			}
 		}
-		for (File f : dir.listFiles()) {
-
+		//if file dates get reset this allows you to reset them based on the filename
+		/*
+		list = Arrays.asList(dir.listFiles());
+		Collections.sort(list);
+		SimpleDateFormat sdf = new SimpleDateFormat("yyMMdd");
+		for (int i = list.size() - 1; i >= 0; i--) {
+			File f = list.get(i);
+			Date d;
+			try {
+				String time = f.getName().substring(12,18);
+				d = sdf.parse(time);
+				Path path = Paths.get(f.getAbsolutePath());
+		        FileTime fileTime = FileTime.fromMillis(d.getTime());
+		        BasicFileAttributeView attributes = Files.getFileAttributeView(path, BasicFileAttributeView.class);
+		        attributes.setTimes(fileTime, fileTime, fileTime);
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+			
+		}*/
+		
+		list = Arrays.asList(dir.listFiles());
+		Collections.sort(list);
+		for (int i = list.size() - 1; i >= 0; i--) {
+			File f = list.get(i);
 			if (f.getName().endsWith(".mp3")) {
 				Path path = FileSystems.getDefault().getPath("/var/www/indiedisco/", f.getName());
 				BasicFileAttributes attr;
@@ -102,9 +126,9 @@ public class CreateRssFeed {
 		bw.flush();
 		bw.close();
 		
-		OutputStream out = new FileOutputStream(path,true);
+		OutputStream out = new FileOutputStream(otherName,true);
 	    byte[] buf = new byte[1024];
-	    InputStream in = new FileInputStream(otherName);
+	    InputStream in = new FileInputStream(path);
 		int b = 0;
 		while ( (b = in.read(buf)) >= 0) {
 	        out.write(buf, 0, b);
@@ -113,7 +137,7 @@ public class CreateRssFeed {
 		in.close();
 	    out.close();
 	    
-	    File f = new File(otherName);
+	    File f = new File(path);
 	    f.delete();
 	}
 
