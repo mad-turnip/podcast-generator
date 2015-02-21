@@ -1,0 +1,581 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<rss xmlns:itunes='http://www.itunes.com/dtds/podcast-1.0.dtd' xmlns:atom='http://www.w3.org/2005/Atom' version='2.0' >
+<channel>
+	<title>Indie Disco</title>
+	<description>Indie Disco is the place where dance meets rock on SPIN 1038, with Clowd, Fridays at 21.45.</description>
+	<link>http://spin1038.com/indiedisco</link>
+	<category>Radio</category>
+	<language>en-ie</language>
+	<lastBuildDate>Sat, 21 Jun 2014 14:59:11 +0100</lastBuildDate>
+	<managingEditor>indiedisco@spin1038.com</managingEditor>
+	<webMaster>info@dv4.com</webMaster>
+	<itunes:summary>Indie Disco is the place where dance meets rock on SPIN 1038, with Clowd, Fridays at 21.45.</itunes:summary>
+	<atom:link href='http://spin1038.com/content/003/podcastFeeds/230.xml' rel='self' type='application/rss+xml' />
+	<itunes:category text='Music'/>
+	<itunes:keywords>Radio Station, guitars, Indie Disco, new wave, remixes, dance, rock, dance beats, electro, indie</itunes:keywords>
+	<itunes:author>Clowd</itunes:author>
+	<itunes:owner>
+		  <itunes:email>indiedisco@spin1038.com</itunes:email>		
+	</itunes:owner>
+	<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+	<itunes:explicit>no</itunes:explicit>
+	<image>	<url>http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg</url>
+			<title>Indie Disco</title>
+			<link>http://spin1038.com/indiedisco</link>
+			<description>Indie Disco is the place where dance meets rock on SPIN 1038, with Clowd, Fridays at 21.45.</description>
+			<width>144</width>
+			<height>144</height>
+	</image>
+	<copyright>Copyright 2014 - Spin1038 Ltd.</copyright>
+	<item>
+		<title>Indie Disco 141219 Part 2</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:31:07Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_141219_Part_2.mp3' length='57456000' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_141219_Part_2.mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 140905 Part 2</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:30:09Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_140905_Part_2.mp3' length='57597952' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_140905_Part_2.mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 140815 Part 1</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:29:57Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_140815_Part_1.mp3' length='57851904' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_140815_Part_1.mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 141031 Part 2</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:30:36Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_141031_Part_2.mp3' length='57860096' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_141031_Part_2.mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 140725 Part 1</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:29:42Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_140725_Part_1.mp3' length='57851904' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_140725_Part_1.mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 140801 Part 1 (1)</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:29:46Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_140801_Part_1_(1).mp3' length='39714816' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_140801_Part_1_(1).mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 141024 Part 1</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:30:31Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_141024_Part_1.mp3' length='57843712' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_141024_Part_1.mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 140829 Part 1 (1)</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:30:04Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_140829_Part_1_(1).mp3' length='46407680' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_140829_Part_1_(1).mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 140801 Part 2</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:29:49Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_140801_Part_2.mp3' length='57851904' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_140801_Part_2.mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 141205 Part 2</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:30:52Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_141205_Part_2.mp3' length='57648000' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_141205_Part_2.mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 140718 Part 2</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:29:40Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_140718_Part_2.mp3' length='57843712' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_140718_Part_2.mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 140905 Part 1</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:30:07Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_140905_Part_1.mp3' length='57565184' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_140905_Part_1.mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 150102 Part 1</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:31:17Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_150102_Part_1.mp3' length='57648000' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_150102_Part_1.mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 140829 Part 2</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:30:05Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_140829_Part_2.mp3' length='54829056' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_140829_Part_2.mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 140808 Part 2</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:29:55Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_140808_Part_2.mp3' length='57843712' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_140808_Part_2.mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 140912 Part 2</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:30:13Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_140912_Part_2.mp3' length='57843712' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_140912_Part_2.mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 150102 Part 2</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:31:19Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_150102_Part_2.mp3' length='57648000' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_150102_Part_2.mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 141010 Part 1</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:30:25Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_141010_Part_1.mp3' length='57851904' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_141010_Part_1.mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 141212 Part 2</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:30:59Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_141212_Part_2.mp3' length='57632000' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_141212_Part_2.mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 141205 Part 1</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:30:48Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_141205_Part_1.mp3' length='57648000' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_141205_Part_1.mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 150116 Part 2</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:31:28Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_150116_Part_2.mp3' length='57520000' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_150116_Part_2.mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 140808 Part 1</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:29:52Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_140808_Part_1.mp3' length='57851904' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_140808_Part_1.mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 140919 Part 1</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:30:15Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_140919_Part_1.mp3' length='57835520' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_140919_Part_1.mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 140725 Part 2</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:29:44Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_140725_Part_2.mp3' length='57851904' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_140725_Part_2.mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 141003 Part 2</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:30:23Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_141003_Part_2.mp3' length='57843712' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_141003_Part_2.mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 141226 Part 2</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:31:13Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_141226_Part_2.mp3' length='57648000' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_141226_Part_2.mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 141010 Part 2</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:30:27Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_141010_Part_2.mp3' length='57835520' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_141010_Part_2.mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 141121 Part 1</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:30:42Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_141121_Part_1.mp3' length='57648000' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_141121_Part_1.mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 140822 Part 1</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:30:00Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_140822_Part_1.mp3' length='57843712' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_140822_Part_1.mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 141107 Part 2</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:30:40Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_141107_Part_2.mp3' length='57843712' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_141107_Part_2.mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 150123 Part 2</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:31:31Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_150123_Part_2.mp3' length='57664000' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_150123_Part_2.mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 141107 Part 1</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:30:38Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_141107_Part_1.mp3' length='57835520' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_141107_Part_1.mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 140919 Part 2</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:30:16Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_140919_Part_2.mp3' length='57851904' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_140919_Part_2.mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 140926 Part 1</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:30:18Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_140926_Part_1.mp3' length='57851904' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_140926_Part_1.mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 141017 Part 2 (2)</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:30:29Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_141017_Part_2_(2).mp3' length='0' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_141017_Part_2_(2).mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 150109 Part 2</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:31:22Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_150109_Part_2.mp3' length='57472000' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_150109_Part_2.mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 140822 Part 2</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:30:02Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_140822_Part_2.mp3' length='57843712' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_140822_Part_2.mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 140718 Part 1</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:29:38Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_140718_Part_1.mp3' length='57835520' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_140718_Part_1.mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 141226 Part 1</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:31:10Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_141226_Part_1.mp3' length='57648000' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_141226_Part_1.mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 141024 Part 2</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:30:33Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_141024_Part_2.mp3' length='57835520' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_141024_Part_2.mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 141031 Part 1</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:30:35Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_141031_Part_1.mp3' length='57835520' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_141031_Part_1.mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 141017 Part 1 (1)</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:30:28Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_141017_Part_1_(1).mp3' length='44670976' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_141017_Part_1_(1).mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 141212 Part 1</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:30:56Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_141212_Part_1.mp3' length='57648000' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_141212_Part_1.mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 141003 Part 1</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:30:21Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_141003_Part_1.mp3' length='57851904' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_141003_Part_1.mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 141219 Part 1</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:31:02Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_141219_Part_1.mp3' length='57664000' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_141219_Part_1.mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 140926 Part 2</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:30:19Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_140926_Part_2.mp3' length='57835520' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_140926_Part_2.mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 150116 Part 1 (1)</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:31:25Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_150116_Part_1_(1).mp3' length='14048000' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_150116_Part_1_(1).mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 141017 Part 2 (1)</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:30:29Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_141017_Part_2_(1).mp3' length='2465792' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_141017_Part_2_(1).mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 141017 Part 2 (3)</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:30:29Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_141017_Part_2_(3).mp3' length='26353664' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_141017_Part_2_(3).mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 141128 Part 2</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:30:45Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_141128_Part_2.mp3' length='57648000' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_141128_Part_2.mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 140912 Part 1</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:30:11Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_140912_Part_1.mp3' length='57843712' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_140912_Part_1.mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 140815 Part 2</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:29:58Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_140815_Part_2.mp3' length='57843712' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_140815_Part_2.mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 150109 Part 1</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:31:21Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_150109_Part_1.mp3' length='57552000' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_150109_Part_1.mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 141128 Part 1</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:30:43Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_141128_Part_1.mp3' length='57632000' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_141128_Part_1.mp3</guid>
+	</item>
+	<item>
+		<title>Indie Disco 150123 Part 1</title>
+		<description>Indie Disco with Clowd on Spin1038</description>
+		<itunes:subtitle>Indie Disco with Clowd on Spin1038</itunes:subtitle>
+		<itunes:summary>Indie Disco with Clowd on Spin1038</itunes:summary>
+		<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+		<pubDate>2015-01-25T20:31:30Z</pubDate>
+		<enclosure url='http://128.204.195.198/indiedisco/Indie_Disco_150123_Part_1.mp3' length='57648000' type='audio/mpeg'/>
+		<guid>http://128.204.195.198/indiedisco/Indie_Disco_150123_Part_1.mp3</guid>
+	</item>
+</channel>
+</rss>

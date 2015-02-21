@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<rss xmlns:itunes='http://www.itunes.com/dtds/podcast-1.0.dtd' xmlns:atom='http://www.w3.org/2005/Atom' version='2.0' >
+<channel>
+	<title>Indie Disco</title>
+	<description>Indie Disco is the place where dance meets rock on SPIN 1038, with Clowd, Fridays at 21.45.</description>
+	<link>http://spin1038.com/indiedisco</link>
+	<category>Radio</category>
+	<language>en-ie</language>
+	<lastBuildDate>Sat, 21 Jun 2014 14:59:11 +0100</lastBuildDate>
+	<managingEditor>indiedisco@spin1038.com</managingEditor>
+	<webMaster>info@dv4.com</webMaster>
+	<itunes:summary>Indie Disco is the place where dance meets rock on SPIN 1038, with Clowd, Fridays at 21.45.</itunes:summary>
+	<atom:link href='http://spin1038.com/content/003/podcastFeeds/230.xml' rel='self' type='application/rss+xml' />
+	<itunes:category text='Music'/>
+	<itunes:keywords>Radio Station, guitars, Indie Disco, new wave, remixes, dance, rock, dance beats, electro, indie</itunes:keywords>
+	<itunes:author>Clowd</itunes:author>
+	<itunes:owner>
+		  <itunes:email>indiedisco@spin1038.com</itunes:email>		
+	</itunes:owner>
+	<itunes:image href='http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg' />
+	<itunes:explicit>no</itunes:explicit>
+	<image>	<url>http://spin1038.com/content/003/images/podcasts/000001/18978_player_podcast_series_230_1400x1400.jpg</url>
+			<title>Indie Disco</title>
+			<link>http://spin1038.com/indiedisco</link>
+			<description>Indie Disco is the place where dance meets rock on SPIN 1038, with Clowd, Fridays at 21.45.</description>
+			<width>144</width>
+			<height>144</height>
+	</image>
+	<copyright>Copyright 2014 - Spin1038 Ltd.</copyright>
