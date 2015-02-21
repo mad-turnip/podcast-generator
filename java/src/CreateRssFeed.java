@@ -1,9 +1,13 @@
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
 import java.nio.file.FileSystems;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -19,25 +23,31 @@ import java.util.Locale;
 public class CreateRssFeed {
 
 	public static void main(String[] args) {
+		boolean mergeFiles = false;
+		if(args.length >= 1){
+			mergeFiles = Boolean.parseBoolean(args[0]);
+		}
 		LinkedList<String> items = new LinkedList<String>();
 		File dir = new File("/var/www/indiedisco/");
-		List<File> list = Arrays.asList(dir.listFiles());
-		Collections.sort(list);
-		for (int i = list.size() - 1; i >= 0; i--) {
-			File f = list.get(i);
-			String s = f.getName();
-			if (s.endsWith(".mp3") && s.contains("_(")) {
-				s = s.substring(s.indexOf("_(") + 2);
-				s = s.substring(0, s.indexOf(")"));
-				int indexOf = Integer.parseInt(s);
-				String otherName = f.getPath().replace("_(" + indexOf,
-						"_(" + (indexOf - 1));
-				if (indexOf == 1)
-					otherName = f.getPath().replace("_(" + indexOf + ")", "");
-				try {
-					cat(f.getPath(), otherName);
-				} catch (IOException e) {
-					e.printStackTrace();
+
+		if(mergeFiles){
+			List<File> list = Arrays.asList(dir.listFiles());
+			Collections.sort(list);
+			for (int i = list.size() - 1; i >= 0; i--) {
+				File f = list.get(i);
+				String s = f.getName();
+				if (s.endsWith(".mp3") && s.contains("_(")) {
+					s = s.substring(s.indexOf("_(") + 2);
+					s = s.substring(0, s.indexOf(")"));
+					int indexOf = Integer.parseInt(s);
+					String otherName = f.getPath().replace("_(" + indexOf,"_(" + (indexOf - 1));
+					if (indexOf == 1)
+						otherName = f.getPath().replace("_(" + indexOf + ")", "");
+					try {
+						cat(f.getPath(), otherName);
+					} catch (IOException e) {
+						e.printStackTrace();
+					}
 				}
 			}
 		}
@@ -91,14 +101,20 @@ public class CreateRssFeed {
 		bw.write((new Date()) + " : " + path + " : " + otherName + "\n");
 		bw.flush();
 		bw.close();
-		// exec("/root/indiedisco/cat.sh "+path+" "+otherName);
-		String[] cmds = new String[] { "/bin/bash", "-c",
-				"/root/indiedisco/cat.sh", path, otherName };
-		try {
-			Runtime.getRuntime().exec(cmds).waitFor();
-		} catch (InterruptedException | IOException e) {
-			e.printStackTrace();
-		}
+		
+		OutputStream out = new FileOutputStream(path,true);
+	    byte[] buf = new byte[1024];
+	    InputStream in = new FileInputStream(otherName);
+		int b = 0;
+		while ( (b = in.read(buf)) >= 0) {
+	        out.write(buf, 0, b);
+	    }
+		out.flush();
+		in.close();
+	    out.close();
+	    
+	    File f = new File(otherName);
+	    f.delete();
 	}
 
 	private static void writeFile(String string, BufferedWriter bw)
