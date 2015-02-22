@@ -1,15 +1,12 @@
 cd /root/indiedisco
 timestamp=$( date +%y%m%d )
 echo $timestamp >> /var/log/houseparty.log
-path="/var/www/houseparty/House_Party_"$timestamp"_Part_1"
-path2="/var/www/houseparty/House_Party_"$timestamp"_Part_2"
+path="/var/www/houseparty/House_Party_"$timestamp
 log=$path".log"
 echo $log >> /var/log/houseparty.log
 echo $path >> /var/log/houseparty.log
-echo $path2 >> /var/log/houseparty.log
 cd streamripper-1.64.6
-./streamripper http://pri.gocaster.net/sp -l 3600 -a $path > $log
-./streamripper http://pri.gocaster.net/sp -l 3600 -a $path2 > $log
+./streamripper http://pri.gocaster.net/sp -l 7200 -a $path > $log
 cd ../java
 ls /var/www/houseparty | while read -r FILE
 do

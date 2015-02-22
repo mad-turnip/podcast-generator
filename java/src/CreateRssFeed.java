@@ -36,7 +36,7 @@ public class CreateRssFeed {
 			prop.load(new FileInputStream(propsFile));
 		} catch (FileNotFoundException e1) {
 			e1.printStackTrace();
-			System.err.println("Expected argument 1 to be a value properties file");
+			System.err.println("Expected argument 1 to be a valid properties file");
 			return;
 		} catch (IOException e1) {
 			e1.printStackTrace();
