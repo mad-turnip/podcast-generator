@@ -106,7 +106,7 @@ public class CreateRssFeed {
 					items.add("\t\t<title>"+ f.getName().replaceAll("_", " ").replace(".mp3", "") + "</title>");
 					items.add("\t\t<description>"+description+"</description>");
 					items.add("\t\t<itunes:subtitle>"+description+"</itunes:subtitle>");
-					items.add("\t\t<itunes:summary>"+description+"/itunes:summary>");
+					items.add("\t\t<itunes:summary>"+description+"</itunes:summary>");
 					items.add("\t\t<itunes:image href='"+cover+"' />");
 					items.add("\t\t<pubDate>" + getDateAsRFC822String(time)+ "</pubDate>");
 					items.add("\t\t<enclosure url='http://128.204.195.198/"+show+"/"+ f.getName()+ "' length='"+ f.length()+ "' type='audio/mpeg'/>");
