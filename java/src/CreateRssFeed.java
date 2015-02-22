@@ -12,7 +12,10 @@ import java.io.OutputStream;
 import java.nio.file.FileSystems;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.attribute.BasicFileAttributeView;
 import java.nio.file.attribute.BasicFileAttributes;
+import java.nio.file.attribute.FileTime;
 import java.text.SimpleDateFormat;
 import java.util.Arrays;
 import java.util.Collections;
@@ -33,66 +36,67 @@ public class CreateRssFeed {
 			prop.load(new FileInputStream(propsFile));
 		} catch (FileNotFoundException e1) {
 			e1.printStackTrace();
+			System.err.println("Expected argument 1 to be a value properties file");
+			return;
 		} catch (IOException e1) {
 			e1.printStackTrace();
+			return;
 		}
 		
 		String show = prop.getProperty("show");
-		String description = prop.getProperty("description");
-		String cover = prop.getProperty("cover");
+		
 		String headerXml = prop.getProperty("header");
 		String footerXml = prop.getProperty("footer");
 
 		if(args.length >= 2){
-			mergeFiles = Boolean.parseBoolean(args[1]);
+			try {
+				mergeFiles = Boolean.parseBoolean(args[1]);
+			} catch(Exception e){
+				System.err.println("Expected argument 2 to be a boolean value");
+				return;
+			}
 		}
 		LinkedList<String> items = new LinkedList<String>();
 		File dir = new File("/var/www/"+show+"/");
-		List<File> list = Arrays.asList(dir.listFiles());
-		Collections.sort(list);
+		
 		if(mergeFiles){
-			
-			for (int i = list.size() - 1; i >= 0; i--) {
-				File f = list.get(i);
-				String s = f.getName();
-				if (s.endsWith(".mp3") && s.contains("_(")) {
-					s = s.substring(s.indexOf("_(") + 2);
-					s = s.substring(0, s.indexOf(")"));
-					int indexOf = Integer.parseInt(s);
-					String otherName = f.getPath().replace("_(" + indexOf,"_(" + (indexOf - 1));
-					if (indexOf == 1)
-						otherName = f.getPath().replace("_(" + indexOf + ")", "");
-					try {
-						cat(f.getPath(), otherName);
-					} catch (IOException e) {
-						e.printStackTrace();
-					}
-				}
-			}
+			mergeMp3Parts(dir);
 		}
+		
 		//if file dates get reset this allows you to reset them based on the filename
-		/*
-		list = Arrays.asList(dir.listFiles());
-		Collections.sort(list);
-		SimpleDateFormat sdf = new SimpleDateFormat("yyMMdd");
-		for (int i = list.size() - 1; i >= 0; i--) {
-			File f = list.get(i);
-			Date d;
-			try {
-				String time = f.getName().substring(12,18);
-				d = sdf.parse(time);
-				Path path = Paths.get(f.getAbsolutePath());
-		        FileTime fileTime = FileTime.fromMillis(d.getTime());
-		        BasicFileAttributeView attributes = Files.getFileAttributeView(path, BasicFileAttributeView.class);
-		        attributes.setTimes(fileTime, fileTime, fileTime);
-			} catch (Exception e) {
-				e.printStackTrace();
-			}
-			
-		}*/
+		//resestFileDates(dir);
+		
 		
 		items.add("\t<lastBuildDate>"+getDateAsRFC822String(new Date())+"</lastBuildDate>");
-		list = Arrays.asList(dir.listFiles());
+		addMp3sToPodcast(items,prop,dir);
+		
+		writePodcastRss(items,headerXml,footerXml);
+		
+	}
+
+	private static void writePodcastRss(LinkedList<String> items,String headerXml, String footerXml) {
+		try {
+			BufferedWriter bw = new BufferedWriter(new FileWriter("feed.xml"));
+			writeFile(headerXml, bw);
+			for (String s : items) {
+				bw.write(s);
+				bw.newLine();
+			}
+			writeFile(footerXml, bw);
+			bw.flush();
+			bw.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+	private static void addMp3sToPodcast(LinkedList<String> items,Properties prop,File dir) {
+		
+		String show = prop.getProperty("show");
+		String description = prop.getProperty("description");
+		String cover = prop.getProperty("cover");
+		
+		List<File> list = Arrays.asList(dir.listFiles());
 		Collections.sort(list);
 		for (int i = list.size() - 1; i >= 0; i--) {
 			File f = list.get(i);
@@ -117,26 +121,34 @@ public class CreateRssFeed {
 				}
 			}
 		}
-		try {
-			BufferedWriter bw = new BufferedWriter(new FileWriter("feed.xml"));
-			writeFile(headerXml, bw);
-			for (String s : items) {
-				// System.out.println(s);
-				bw.write(s);
-				bw.newLine();
+	}
+
+	@SuppressWarnings("unused")
+	private static void resestFileDates(File dir) {
+		List<File> list = Arrays.asList(dir.listFiles());
+		Collections.sort(list);
+		SimpleDateFormat sdf = new SimpleDateFormat("yyMMdd");
+		for (int i = list.size() - 1; i >= 0; i--) {
+			File f = list.get(i);
+			Date d;
+			try {
+				String time = f.getName().substring(12,18);
+				d = sdf.parse(time);
+				Path path = Paths.get(f.getAbsolutePath());
+		        FileTime fileTime = FileTime.fromMillis(d.getTime());
+		        BasicFileAttributeView attributes = Files.getFileAttributeView(path, BasicFileAttributeView.class);
+		        attributes.setTimes(fileTime, fileTime, fileTime);
+			} catch (Exception e) {
+				e.printStackTrace();
 			}
-			writeFile(footerXml, bw);
-			bw.flush();
-			bw.close();
-		} catch (IOException e) {
-			e.printStackTrace();
+			
 		}
 	}
 
-	public static SimpleDateFormat RFC822DATEFORMAT = new SimpleDateFormat(
+	private static SimpleDateFormat RFC822DATEFORMAT = new SimpleDateFormat(
 			"EEE', 'dd' 'MMM' 'yyyy' 'HH:mm:ss' 'Z", Locale.US);
 
-	public static String getDateAsRFC822String(Date date) {
+	private static String getDateAsRFC822String(Date date) {
 		return RFC822DATEFORMAT.format(date);
 	}
 
@@ -161,15 +173,38 @@ public class CreateRssFeed {
 	    f.delete();
 	}
 
-	private static void writeFile(String string, BufferedWriter bw)
+	private static void writeFile(String fileName, BufferedWriter bw)
 			throws IOException {
-		BufferedReader br = new BufferedReader(new FileReader(string));
+		BufferedReader br = new BufferedReader(new FileReader(fileName));
 		String line;
 		while ((line = br.readLine()) != null) {
-			bw.write(line + "\n");
+			bw.write(line);
+			bw.newLine();
 		}
 		br.close();
 		bw.flush();
+	}
+	
+	private static void mergeMp3Parts(File dir){
+		List<File> list = Arrays.asList(dir.listFiles());
+		Collections.sort(list);
+		for (int i = list.size() - 1; i >= 0; i--) {
+			File f = list.get(i);
+			String s = f.getName();
+			if (s.endsWith(".mp3") && s.contains("_(")) {
+				s = s.substring(s.indexOf("_(") + 2);
+				s = s.substring(0, s.indexOf(")"));
+				int indexOf = Integer.parseInt(s);
+				String otherName = f.getPath().replace("_(" + indexOf,"_(" + (indexOf - 1));
+				if (indexOf == 1)
+					otherName = f.getPath().replace("_(" + indexOf + ")", "");
+				try {
+					cat(f.getPath(), otherName);
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+			}
+		}
 	}
 
 }
