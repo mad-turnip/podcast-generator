@@ -95,7 +95,7 @@ public class CreateRssFeed {
 		String show = prop.getProperty("show");
 		String description = prop.getProperty("description");
 		String cover = prop.getProperty("cover");
-		
+		String host = prop.getProperty("host");
 		List<File> list = Arrays.asList(dir.listFiles());
 		Collections.sort(list);
 		for (int i = list.size() - 1; i >= 0; i--) {
@@ -113,8 +113,8 @@ public class CreateRssFeed {
 					items.add("\t\t<itunes:summary>"+description+"</itunes:summary>");
 					items.add("\t\t<itunes:image href='"+cover+"' />");
 					items.add("\t\t<pubDate>" + getDateAsRFC822String(time)+ "</pubDate>");
-					items.add("\t\t<enclosure url='http://128.204.195.198/"+show+"/"+ f.getName()+ "' length='"+ f.length()+ "' type='audio/mpeg'/>");
-					items.add("\t\t<guid>http://128.204.195.198/"+show+"/"+ f.getName() + "</guid>");
+					items.add("\t\t<enclosure url='http://"+host+"/"+show+"/"+ f.getName()+ "' length='"+ f.length()+ "' type='audio/mpeg'/>");
+					items.add("\t\t<guid>http://"+host+"/"+show+"/"+ f.getName() + "</guid>");
 					items.add("\t</item>");
 				} catch (IOException e) {
 					e.printStackTrace();
